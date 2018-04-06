@@ -1,0 +1,22 @@
+[Unit]
+Description=GoSuperSayayinCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=GoSuperSayayinCoincore
+Group=GoSuperSayayinCoincore
+
+Type=forking
+PIDFile=/var/lib/GoSuperSayayinCoind/GoSuperSayayinCoind.pid
+ExecStart=/usr/bin/GoSuperSayayinCoind -daemon -pid=/var/lib/GoSuperSayayinCoind/GoSuperSayayinCoind.pid \
+-conf=/etc/GoSuperSayayinCoincore/GoSuperSayayinCoin.conf -datadir=/var/lib/GoSuperSayayinCoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

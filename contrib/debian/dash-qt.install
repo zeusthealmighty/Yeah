@@ -1,0 +1,6 @@
+usr/local/bin/GoSuperSayayinCoin-qt usr/bin
+share/pixmaps/GoSuperSayayinCoin32.xpm usr/share/pixmaps
+share/pixmaps/GoSuperSayayinCoin16.xpm usr/share/pixmaps
+share/pixmaps/GoSuperSayayinCoin128.png usr/share/pixmaps
+debian/GoSuperSayayinCoin-qt.desktop usr/share/applications
+debian/GoSuperSayayinCoin-qt.protocol usr/share/kde4/services/

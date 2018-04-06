@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=GoSuperSayayinCoin
+Comment=GoSuperSayayinCoin P2P Cryptocurrency
+Comment[fr]=GoSuperSayayinCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=GoSuperSayayinCoin, eşten eşe kriptografik sanal para birimi
+Exec=GoSuperSayayinCoin-qt %u
+Terminal=false
+Type=Application
+Icon=GoSuperSayayinCoin128
+MimeType=x-scheme-handler/GoSuperSayayinCoin;
+Categories=Office;Finance;
